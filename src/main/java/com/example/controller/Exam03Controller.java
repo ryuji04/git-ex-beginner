@@ -23,6 +23,9 @@ public class Exam03Controller {
 		int tax=sum/10;
 		int result=sum+tax;
 		
+		application.setAttribute("sum", sum);
+		application.setAttribute("result", result);
+		
 		return "exam03-result";
 	}
 }

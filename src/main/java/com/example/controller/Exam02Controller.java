@@ -32,8 +32,5 @@ public class Exam02Controller {
 		return "exam02-result";
 	}
 	
-	@RequestMapping("/result2")
-	public String result2() {
-		return "exam02-result2";
-	}
+	
 }

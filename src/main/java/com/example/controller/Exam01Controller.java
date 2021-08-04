@@ -18,9 +18,5 @@ public class Exam01Controller {
 		return "exam01-result";
 	}
 	
-	@RequestMapping("/result2")
-	public String result2(String name,Model model) {
-		model.addAttribute("name",name);
-		return "exam01-result2";
-	}
+	
 }

@@ -5,7 +5,8 @@
 <title>演習1</title>
 </head>
 <body>
-<form action="ex01/result" method="post">
+<form action="ex01/result" 
+th:action="@{/ex01/result}" method="post">
 名前:
 <input name="name" type="text"><br>
 <button>送信</button>
